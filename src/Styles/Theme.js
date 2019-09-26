@@ -1,5 +1,5 @@
 export default{
-    bgColor: "#FAFAFA",
+    bgColor: "#000000",
     blackColor: "#262626",
     darkGreyColor: "#999",
     lightGreyColor:"#c7c7c7",

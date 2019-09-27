@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Auth from "../Routes/Auth";
 import Feed from "../Routes/Feed";
 
-const LoggedOutRoutes = () => ( <><Router exact path="/" component={Auth} /></>);
+const LoggedOutRoutes = () => ( <><Route exact path="/" component={Auth} /></>);
 
 const LoggedInRoutes = () => ( <><Route exact path="/" component={Feed} /></> );
 
